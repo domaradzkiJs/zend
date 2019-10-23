@@ -5,6 +5,9 @@ import { ReactComponent as IdeaIcon } from './assets/light-bulb.svg';
 
 import TimerIcon from '@material-ui/icons/Timer';
 import SettingsIcon from '@material-ui/icons/Settings';
+import DescriptionIcon from '@material-ui/icons/Description';
+import HouseIcon from '@material-ui/icons/House';
+import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
  /*
 class Data extends React.Component {
     constructor(props){
@@ -60,8 +63,8 @@ const Data = [
     },
     {
         id: 3,        
-        heading:  'Qucikness',
-        paragraph: 'Vestibulum id leo in lectus cursus rutrum eget quis lectus. Quisque rhoncus volutpat tortor a fermentum. Sed elementum volutpat tortor a scelerisque purus, at scelerisquvolutpat tortor a e turpis. Curabitur fringilla semper turpis ac tempus. Nullam arcu dui, egestas a tristique nec, venenatis non odio.'
+        heading:  'Our Process',
+        paragraph: 'Vestibulum id leo in lectus cursus rutrum eget quis lectus. Quisque rhoncus volutpat tortor a fermentum. Sed elementum volutpat tortor a scelerisque purus, at scelerisquvolutpat tortor a e turpis.'
     }
 
     ]
@@ -192,7 +195,31 @@ const Data = [
         
 
     ]
-    }
+    },
+
+    {
+        id: 4,
+        process: [  
+        {
+            id:1,
+            icon: <DescriptionIcon/>,    
+            heading: 'Plan',
+            paragraph: 'Suspendisse potenti. Nullam aliquet dignissim imperdiet. Nullam aliquam ac lorem sed accumsan. Etiam a aliquam quam, et vestibulum sapien. Integer ut leo eget odio aliquam egestas vitae et justo. Donec vehicula mi et viverra pharetra. Etiam tincidunt erat sed viverra rutrum.'
+        },
+        {   
+            id: 2,
+            icon: <HouseIcon/>, 
+            heading: 'Construction',
+            paragraph: 'Aliquam felis arcu, tincidunt ut quam ac, hendrerit convallis ante. Maecenas laoreet bibendum lobortis.Suspendisse eleifend vel mi et interdum. Aliquam felis arcu, tincidunt ut quam ac, hendrerit convallis ante. Maecenas laoreet bibendum lobortis. '
+        },
+        {
+            id: 3,
+            icon: <ContactPhoneIcon/>, 
+            heading:  'Support',
+            paragraph: 'Vestibulum id leo in lectus cursus rutrum eget quis lectus. Quisque rhoncus volutpat tortor a fermentum. Sed elementum volutpat tortor a scelerisque purus, at scelerisquvolutpat tortor a e turpis. Curabitur fringilla semper turpis ac tempus. Nullam arcu dui, egestas a tristique nec, venenatis non odio.'
+        }
+    
+     ] }
  
 ]
 
