@@ -1,0 +1,15 @@
+
+.set {
+    padding: 2em 0;
+    display: flex;
+   
+    justify-content: space-between;
+ 
+    .ic-section {
+        text-align: center;
+        flex-grow: 1;
+         flex-basis: 0;
+         margin:1em;
+    }
+
+}

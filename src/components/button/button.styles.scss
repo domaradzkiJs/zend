@@ -1,0 +1,27 @@
+
+
+
+.btn, .btn-selected  {
+    font-size: 1em;
+    
+    text-transform: uppercase;
+    padding:0.5em 1em;
+    border: 3px solid white;
+    background:rgba(53, 68, 88,0.8);
+    color: white;
+  
+   &:hover {
+     background:$dark;
+     cursor: pointer;
+   } 
+
+   &:focus {
+       background: $main;
+
+   }
+ }
+
+ .btn-selected {
+  background: $main;
+ }
+

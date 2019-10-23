@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Serif Pro', serif; */
+
+
+
+/** STYLES */
+
+/* Global variables */
+$main: #77c4f6;
+$dark: #354458;
+$light: #cef6ff;
+$small: 768px;
+$smallFont:12px;
+
+/*imports*/
+@import "components/app-bar/app-bar.styles.scss";
+@import "components/custom-icon/custom-icon.styles.scss";
+@import "components/button/button.styles.scss";
+@import "components/gallery/gallery.styles.scss";
+@import "sections/header/header.styles.scss";
+@import "sections/about/about.styles.scss";
+@import "sections/projects/projects.styles.scss";
+
+
+
+.container { 
+  width:90%;
+  margin: auto;
+      
+}
+
+h3 {
+  color:$dark;
+}
+
+.text-wrapper {
+  max-width: 80%;
+  
+  text-align: center;
+  margin:3em auto;
+  
+
+  h2 {
+      color:$dark;
+  }
+
+  p {
+      
+      font-family: 'PT Serif', serif;
+  }
+
+
+
+}
+
