@@ -35,8 +35,7 @@ $smallFont:12px;
 @import "sections/header/header.styles.scss";
 @import "sections/about/about.styles.scss";
 @import "sections/projects/projects.styles.scss";
-
-
+@import "sections/clients/clients.styles.scss";
 
 .container { 
   width:90%;
@@ -55,7 +54,7 @@ h3 {
   margin:3em auto;
   
 
-  h2 {
+  h1 {
       color:$dark;
   }
 
