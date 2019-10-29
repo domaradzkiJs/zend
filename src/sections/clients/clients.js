@@ -2,9 +2,13 @@ import React from 'react';
 
 import '../../index.scss';
 import Text from '../../components/text/text.component';
+import Data from '../../page-content';
+import Slider from '../../components/slider/slider.component';
+
 const Clients = () => (
+    <div>
     <div className="bg-photo">
-        <Text title='Happy Clients' colh1={{color:'#77c4f6'}} style={{margin:'1em auto 0 auto', padding:'30px', color:'white'}} paragraph=' Pellentesque sagittis, mauris vitae porta cursus, nunc felis vehicula nulla, in aliquam tellus arcu congue sapien. Nullam ac odio massa.' />
+        <Text title={Data[1].sectionStarters[3].heading} colh1={{color:'#cef6ff'}} style={{margin:'1em auto 0 auto', padding:'30px', color:'white'}} paragraph={Data[1].sectionStarters[3].paragraph} />
         <div className="container opinions">
             <div>
             <blockquote><p className="quotation"> 
@@ -18,12 +22,15 @@ const Clients = () => (
             Aliquam felis arcu, tincidunt ut quam ac, hendrerit convallis ante. Maecenas laoreet bibendum lobortis.</p>
                  <footer>— Alex Johnson</footer>
             </blockquote> 
-            </div>
-            
-         
-             
-             
+            </div>       
+ 
         </div>
+
+     </div>
+    <div className="container">
+        <Text title={Data[1].sectionStarters[4].heading} />
+        <Slider arr={Data[4].slider}/>
+    </div>
     </div>
 )
 

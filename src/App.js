@@ -4,6 +4,8 @@ import  About from './sections/about/about';
 import  Projects from './sections/projects/projects';
 import  Process from './sections/process/process';
 import Clients from './sections/clients/clients';
+import Contact from './sections/contact/contact';
+import Footer from './sections/footer/footer';
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,10 @@ function App() {
          <Process/>
       </div>
       <Clients/>
+      <div className="container">
+        <Contact/>
+      </div>
+      <Footer/>
       
     </div>
   );

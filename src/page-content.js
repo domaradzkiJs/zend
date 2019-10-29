@@ -65,6 +65,16 @@ const Data = [
         id: 3,        
         heading:  'Our Process',
         paragraph: 'Vestibulum id leo in lectus cursus rutrum eget quis lectus. Quisque rhoncus volutpat tortor a fermentum. Sed elementum volutpat tortor a scelerisque purus, at scelerisquvolutpat tortor a e turpis.'
+    },
+    {
+        id: 4,        
+        heading:  'Happy Clients',
+        paragraph: ' Pellentesque sagittis, mauris vitae porta cursus, nunc felis vehicula nulla, in aliquam tellus arcu congue sapien. Nullam ac odio massa.'
+    },
+    {
+        id: 5,        
+        heading:  'Clients',
+        paragraph: ''
     }
 
     ]
@@ -219,7 +229,21 @@ const Data = [
             paragraph: 'Vestibulum id leo in lectus cursus rutrum eget quis lectus. Quisque rhoncus volutpat tortor a fermentum. Sed elementum volutpat tortor a scelerisque purus, at scelerisquvolutpat tortor a e turpis. Curabitur fringilla semper turpis ac tempus. Nullam arcu dui, egestas a tristique nec, venenatis non odio.'
         }
     
-     ] }
+     ] },
+
+     {
+         id:5,
+        slider: [
+            'https://i.imgur.com/2SOptd6.jpg',
+            'https://i.imgur.com/wn946ZI.jpg',
+            'https://i.imgur.com/zcf49gC.jpg',
+            'https://i.imgur.com/vJuTQcO.png',
+            'https://i.imgur.com/2SOptd6.jpg',
+            'https://i.imgur.com/wn946ZI.jpg',
+            'https://i.imgur.com/zcf49gC.jpg',
+            'https://i.imgur.com/vJuTQcO.png'
+        ]
+     }
  
 ]
 

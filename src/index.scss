@@ -32,10 +32,12 @@ $smallFont:12px;
 @import "components/custom-icon/custom-icon.styles.scss";
 @import "components/button/button.styles.scss";
 @import "components/gallery/gallery.styles.scss";
+
 @import "sections/header/header.styles.scss";
 @import "sections/about/about.styles.scss";
 @import "sections/projects/projects.styles.scss";
 @import "sections/clients/clients.styles.scss";
+@import "sections/footer/footer.styles.scss";
 
 .container { 
   width:90%;
