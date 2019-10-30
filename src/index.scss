@@ -32,7 +32,10 @@ $smallFont:12px;
 @import "components/custom-icon/custom-icon.styles.scss";
 @import "components/button/button.styles.scss";
 @import "components/gallery/gallery.styles.scss";
+@import "components/slider/slider.styles.scss";
+@import "components/slider/slide/slide.styles.scss";
 
+@import "sections/contact/contact.styles.scss";
 @import "sections/header/header.styles.scss";
 @import "sections/about/about.styles.scss";
 @import "sections/projects/projects.styles.scss";
@@ -69,3 +72,25 @@ h3 {
 
 }
 
+
+@media screen and (max-width:$small) {
+  body {font-size:12px;}
+  .set {flex-wrap: wrap;}
+  .bg-photo .opinions  {
+    .inner-quotes {
+      display: block; 
+      width:100%;
+     } 
+    }
+    .contact {
+      width: 100%;
+      
+    }
+    .slider-wrapper {
+      flex-wrap: wrap;
+    }
+
+    .slide-item{
+      height: 10vh;
+    }
+}

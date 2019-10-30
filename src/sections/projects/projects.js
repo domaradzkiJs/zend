@@ -44,7 +44,7 @@ class Projects extends React.Component{
        
         const { buttons, values, input } = this.state;
         return(
-            <div>
+            <div id="projects">
             <Text title={sectionTitle} paragraph={sectionParagraph} />
             <div className='buttons-wrap'>
                { buttons.map((btn,i)=>(

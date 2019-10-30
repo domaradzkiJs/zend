@@ -13,7 +13,7 @@ class Process extends React.Component {
         const sectionStart = this.state.about[1].sectionStarters;
         const data = this.state.about[3].process;
         return ( 
-           <div>
+           <div id="process">
             <Text title={sectionStart[2].heading} paragraph={sectionStart[2].paragraph}/>
            
            <div className="container set">

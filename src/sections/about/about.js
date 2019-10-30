@@ -20,7 +20,7 @@ class About extends React.Component {
         const data = this.state.info[0].about;
         console.log(this.state.info[1].sectionStarters[0].heading);
         return(
-        <div>
+        <div id='about'>
             <Text title={this.state.info[1].sectionStarters[0].heading} paragraph={this.state.info[1].sectionStarters[0].paragraph}/>
             <div className="container set">
 

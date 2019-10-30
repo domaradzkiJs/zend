@@ -1,6 +1,6 @@
 import React from 'react';
 import Slide from './slide/slide.component';
-import './slider.styles.scss';
+import '../../index.scss';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 

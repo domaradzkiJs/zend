@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link, animateScroll as scroll } from "react-scroll";
 import '../../index.scss';
 class AppBar extends React.Component {
     constructor(props) {
@@ -12,7 +12,11 @@ class AppBar extends React.Component {
         this.setState({open: !this.state.open})
     )
 
-    
+    scrollToTop = ()=> {
+        scroll.scrollToTop();
+    };
+
+  
 
 
     render() {
@@ -21,26 +25,76 @@ class AppBar extends React.Component {
 
             <div className="app-bar"> 
             <div className="container bar">
-                <div className="logo"> Logo </div>
+                <div className="logo" onClick={this.scrollToTop}> Logo </div>
                 <div className="hamburger" onClick={this.handleClick}>
                         <div className="line"> </div>
                         <div className="line"> </div>
                         <div className="line"> </div>
     
                 </div>
-                <div className={ this.state.open ? "nav-box open" : "nav-box"} >
-    {/*                 <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Our Process</a>
-                    <a href="#">Contact</a> */}    
+                <div className={ this.state.open ? "nav-box open" : "nav-box" } >
+     
     
                    
-                    <div>Home</div>
-                    <div>About</div>
-                    <div>Projects</div>
-                    <div>Our Process</div>
-                    <div>Contact</div>                   
+                    <div className="nav-item">
+                    <Link  onClick={this.handleClick}
+                         activeClass="active" 
+                         to="home" 
+                         spy={true}
+                         smooth={true}
+                         offset={-100}
+                         duration={500}>
+                    
+                        Home
+                        </Link>
+                        </div>
+                    <div className="nav-item">
+                         <Link  onClick={this.handleClick}
+                         activeClass="active" 
+                         to="about" 
+                         spy={true}
+                         smooth={true}
+                         offset={-100}
+                         duration={500}>
+                    
+                    About 
+                     </Link></div>
+                    <div className="nav-item">
+                    <Link onClick={this.handleClick}
+                         activeClass="active" 
+                         to="projects" 
+                         spy={true}
+                         smooth={true}
+                         offset={-100}
+                         duration={500}>
+                                 Projects
+                   
+                     </Link>
+                        </div>
+                    <div className="nav-item">
+                    <Link onClick={this.handleClick}
+                         activeClass="active" 
+                         to="process"
+                         spy={true}
+                         smooth={true}
+                         offset={-100}
+                         duration={500}>
+                                Our Process
+                   
+                     </Link>
+                        </div>
+                    <div className="nav-item">
+                    <Link onClick={this.handleClick}
+                         activeClass="active" 
+                         to="contact"  
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={500}>
+                               Contact
+                   
+                     </Link>
+                        </div>                   
                 </div>
              </div>        
         </div>

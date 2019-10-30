@@ -73,7 +73,7 @@ const Data = [
     },
     {
         id: 5,        
-        heading:  'Clients',
+        heading:  'Our Trusted Customers',
         paragraph: ''
     }
 
@@ -82,126 +82,90 @@ const Data = [
     {
     id:3,
     houses: [
+        
+  
         {
             id:1,
-            image: 'https://i.imgur.com/j9vrbiK.jpg',
-            type: 'house'
-        },
-        {
-            id:2,
-            image: 'https://i.imgur.com/Ys0EN5D.jpg',
-            type: 'house'
-        },
-        {
-            id:3,
-            image: 'https://i.imgur.com/5rz13lj.jpg',
-            type: 'house'
-        },
-        {
-            id:4,
-            image: 'https://i.imgur.com/Ro96YGG.jpg',
-            type: 'house'
-        },
-        {
-            id:5,
             image: 'https://i.imgur.com/aWWfwbn.jpg',
             type: 'house'
         },
         {
-            id:6,
+            id:2,
             image: 'https://i.imgur.com/3kbVP6w.jpg',
             type: 'house'
         },
         {
-            id:7,
+            id:3,
             image: 'https://i.imgur.com/pIPC9QD.jpg',
             type: 'apartment'
         },
         {
-            id:8,
+            id:4,
             image: 'https://i.imgur.com/T2QgYHI.jpg',
             type: 'apartment'
         },
         {
-            id:9,
+            id:5,
             image: 'https://i.imgur.com/txYIW26.jpg',
             type: 'house'
         },
         {
-            id:10,
+            id:6,
             image: 'https://i.imgur.com/xr2Fh0j.jpg',
             type: 'house'
         },
         {
-            id:11,
+            id:7,
             image: 'https://i.imgur.com/Bjf7lw3.jpg',
             type: 'apartment'
         },
         {
-            id:12,
+            id:8,
             image: 'https://i.imgur.com/SvFGKgI.jpg',
             type: 'apartment',
         },
         {
-            id:13,
+            id:9,
             image: 'https://i.imgur.com/LADlZkE.jpg',
             type: 'house',            
         },
         {
-            id:14,
+            id:10,
             image: 'https://i.imgur.com/MqLFCUz.jpg',
             type: 'house',            
         },
         {
-            id:15,
+            id:11,
             image: 'https://i.imgur.com/OSQRQ7Q.jpg',
             type: 'house',            
         },
+        {
+            id:12,
+            image: 'https://i.imgur.com/Bjf7lw3.jpg',
+            type: 'apartment'
+        },
+        {
+            id:13,
+            image: 'https://i.imgur.com/SvFGKgI.jpg',
+            type: 'apartment',
+        },
+        {
+            id:14,
+            image: 'https://i.imgur.com/Bjf7lw3.jpg',
+            type: 'apartment'
+        },
+        {
+            id:15,
+            image: 'https://i.imgur.com/SvFGKgI.jpg',
+            type: 'apartment',
+        },
+
         {
             id:16,
-            image: 'https://i.imgur.com/Bjf7lw3.jpg',
-            type: 'apartment'
-        },
-        {
-            id:17,
-            image: 'https://i.imgur.com/SvFGKgI.jpg',
-            type: 'apartment',
-        },
-        {
-            id:18,
-            image: 'https://i.imgur.com/Bjf7lw3.jpg',
-            type: 'apartment'
-        },
-        {
-            id:19,
-            image: 'https://i.imgur.com/SvFGKgI.jpg',
-            type: 'apartment',
-        },
-        {
-            id:20,
-            image: 'https://i.imgur.com/Bjf7lw3.jpg',
-            type: 'apartment'
-        },
-        {
-            id:21,
-            image: 'https://i.imgur.com/SvFGKgI.jpg',
-            type: 'apartment',
-        },
-        {
-            id:22,
             image: 'https://i.imgur.com/OSQRQ7Q.jpg',
             type: 'house',            
-        },
-        {
-            id:23,
-            image: 'https://i.imgur.com/T2QgYHI.jpg',
-            type: 'apartment'
-        },
-        {
-            id:24,
-            image: 'https://i.imgur.com/T2QgYHI.jpg',
-            type: 'apartment'
         }
+
         
 
     ]
