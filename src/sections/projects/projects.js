@@ -18,22 +18,11 @@ class Projects extends React.Component{
         };
     }
 
-    handleClick = e =>  this.setState({input: e.target.value});
+    handleClick = e =>  this.setState( {input: e.target.value});
     
 
 
-/* 
-    CheckInput = () => {
-        if (this.state.input==='') {
-            this.myRef.current.focus();
-        }
-    } */
 
-    componentDidMount() {
-        // autofocus the input on mount
-       
-      }
-   
     render() {
      /*    this.CheckInput(); */
         const sectionTitle = this.state.data[1].sectionStarters[1].heading;
