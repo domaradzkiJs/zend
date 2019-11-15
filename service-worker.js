@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zend/precache-manifest.8a702994b889fd9dc6a5000aa24698db.js"
+  "/zend/precache-manifest.d48676a0e981c2f5bf319d4781dfb356.js"
 );
 
 self.addEventListener('message', (event) => {
