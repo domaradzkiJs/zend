@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zend/static/css/main.c365d3c4.chunk.css",
+    "main.js": "/zend/static/js/main.f2347dda.chunk.js",
+    "main.js.map": "/zend/static/js/main.f2347dda.chunk.js.map",
+    "runtime-main.js": "/zend/static/js/runtime-main.086fc993.js",
+    "runtime-main.js.map": "/zend/static/js/runtime-main.086fc993.js.map",
+    "static/js/2.681a6f04.chunk.js": "/zend/static/js/2.681a6f04.chunk.js",
+    "static/js/2.681a6f04.chunk.js.map": "/zend/static/js/2.681a6f04.chunk.js.map",
+    "index.html": "/zend/index.html",
+    "precache-manifest.b2f3d3c820cf7109bef81bd074858d7b.js": "/zend/precache-manifest.b2f3d3c820cf7109bef81bd074858d7b.js",
+    "service-worker.js": "/zend/service-worker.js",
+    "static/css/main.c365d3c4.chunk.css.map": "/zend/static/css/main.c365d3c4.chunk.css.map",
+    "static/media/front.jpg": "/zend/static/media/front.11225775.jpg",
+    "static/media/light-bulb.3220ac52.svg": "/zend/static/media/light-bulb.3220ac52.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.086fc993.js",
+    "static/js/2.681a6f04.chunk.js",
+    "static/css/main.c365d3c4.chunk.css",
+    "static/js/main.f2347dda.chunk.js"
+  ]
+}
